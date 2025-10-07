@@ -2,6 +2,8 @@
 
 A library and CLI tool for rendering Markdown documents with syntax highlighting and rich text formatting.
 
+Built with [mq](https://github.com/harehare/mq) - jq-like command-line tool for markdown processing.
+
 ![demo](assets/demo.gif)
 
 ## Features
