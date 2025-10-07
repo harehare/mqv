@@ -49,7 +49,7 @@ echo "# Hello\n\n\`\`\`rust\nfn main() {}\n\`\`\`" | mqv
 Add to your `Cargo.toml`:
 ```toml
 [dependencies]
-mq-viewer = "0.2.23"
+mqv = {git = "https://github.com/harehare/mqv.git"}
 ```
 
 Use in your code:
@@ -109,7 +109,7 @@ See the [examples](examples/) directory for more usage examples.
 
 Run an example:
 ```bash
-cargo run --package mq-viewer --example basic_usage
+cargo run --example basic_usage
 ```
 
 ## License
