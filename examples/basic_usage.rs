@@ -1,4 +1,4 @@
-/// Example demonstrating basic usage of the mq-viewer library
+/// Example demonstrating basic usage of the mqv library
 use mq_markdown::Markdown;
 use mqv::{render_markdown, render_markdown_to_string};
 use std::io::BufWriter;
