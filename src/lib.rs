@@ -6,7 +6,7 @@
 //! # Examples
 //!
 //! ```rust
-//! use mq_viewer::render_markdown_to_string;
+//! use mqv::render_markdown_to_string;
 //! use mq_markdown::Markdown;
 //!
 //! let markdown: Markdown = "# Hello\n\n```rust\nfn main() {}\n```".parse().unwrap();

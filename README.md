@@ -54,7 +54,7 @@ mq-viewer = "0.2.23"
 
 Use in your code:
 ```rust
-use mq_viewer::{render_markdown, render_markdown_to_string};
+use mqv::{render_markdown, render_markdown_to_string};
 use mq_markdown::Markdown;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -95,7 +95,7 @@ pub fn render_markdown_to_string(markdown: &Markdown) -> io::Result<String>
 Create and use a syntax highlighter independently:
 
 ```rust
-use mq_viewer::SyntaxHighlighter;
+use mqv::SyntaxHighlighter;
 
 let mut highlighter = SyntaxHighlighter::new();
 let code = "fn main() { println!(\"Hello\"); }";

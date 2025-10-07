@@ -77,7 +77,7 @@ fn make_clickable_link(url: &str, display_text: &str) -> String {
 /// # Examples
 ///
 /// ```rust
-/// use mq_viewer::render_markdown;
+/// use mqv::render_markdown;
 /// use mq_markdown::Markdown;
 /// use std::io::BufWriter;
 ///
@@ -121,7 +121,7 @@ pub fn render_markdown<W: Write>(markdown: &Markdown, writer: &mut W) -> io::Res
 /// # Examples
 ///
 /// ```rust
-/// use mq_viewer::render_markdown_to_string;
+/// use mqv::render_markdown_to_string;
 /// use mq_markdown::Markdown;
 ///
 /// let markdown: Markdown = "# Hello\n\nWorld".parse().unwrap();

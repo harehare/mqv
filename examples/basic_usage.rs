@@ -1,6 +1,6 @@
 /// Example demonstrating basic usage of the mq-viewer library
 use mq_markdown::Markdown;
-use mq_viewer::{render_markdown, render_markdown_to_string};
+use mqv::{render_markdown, render_markdown_to_string};
 use std::io::BufWriter;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
