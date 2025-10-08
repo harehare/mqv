@@ -1,7 +1,8 @@
-# mqv
+<h1 align="center">mqv</h1>
+
+[![ci](https://github.com/harehare/mx/actions/workflows/ci.yml/badge.svg)](https://github.com/harehare/mx/actions/workflows/ci.yml)
 
 A library and CLI tool for rendering Markdown documents with syntax highlighting and rich text formatting.
-
 Built with [mq](https://github.com/harehare/mq) - jq-like command-line tool for markdown processing.
 
 ![demo](assets/demo.gif)
