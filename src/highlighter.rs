@@ -251,7 +251,6 @@ mod tests {
     fn test_highlighting_for_supported_languages(#[case] lang: &str, #[case] code: &str) {
         let mut highlighter = SyntaxHighlighter::new();
         let result = highlighter.highlight(code, Some(lang));
-        dbg!(&result);
         assert!(
             result.contains("\x1b["),
             "Expected ANSI escape codes for language: {}",
