@@ -17,6 +17,17 @@ Built with [mq](https://github.com/harehare/mq) - jq-like command-line tool for 
 
 ## Installation
 
+### Quick Install
+
+```bash
+curl -sSL https://raw.githubusercontent.com/harehare/mqv/refs/heads/main/bin/install.sh | bash
+```
+
+The installer will:
+- Download the latest mqv binary for your platform
+- Install it to `~/.mqv/bin/`
+- Update your shell profile to add mqv to your PATH
+
 ### Cargo
 
 ```sh
