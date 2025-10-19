@@ -1,6 +1,6 @@
 <h1 align="center">mqv</h1>
 
-[![ci](https://github.com/harehare/mx/actions/workflows/ci.yml/badge.svg)](https://github.com/harehare/mx/actions/workflows/ci.yml)
+[![ci](https://github.com/harehare/mqv/actions/workflows/ci.yml/badge.svg)](https://github.com/harehare/mqv/actions/workflows/ci.yml)
 
 A library and CLI tool for rendering Markdown documents with syntax highlighting and rich text formatting.
 Built with [mq](https://github.com/harehare/mq) - jq-like command-line tool for markdown processing.
@@ -47,11 +47,13 @@ $ cargo install --git https://github.com/harehare/mqv.git
 ### As a CLI Tool
 
 View a markdown file:
+
 ```bash
 mqv README.md
 ```
 
 Pipe markdown content:
+
 ```bash
 echo "# Hello\n\n\`\`\`rust\nfn main() {}\n\`\`\`" | mqv
 ```
